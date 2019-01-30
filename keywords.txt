@@ -1,1 +1,3 @@
 Factorial	KEYWORD1
+Pochhammer	KEYWORD2
+RisingFactorial KEYWORD3

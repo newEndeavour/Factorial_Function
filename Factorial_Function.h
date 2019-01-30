@@ -1,16 +1,24 @@
 /*
   File:         Factorial_Function.h
-  Version:      0.0.1
+  Version:      0.0.2
   Date:         27-Jan-2019
-  Revision:     27-Jan-2019
+  Revision:     30-Jan-2019
   Author:       Jerome Drouin (jerome.p.drouin@gmail.com)
+
+  Credits:	https://en.wikipedia.org/wiki/Factorial
+		http://www.mymathlib.com/functions/combinatorial.html
 
   Factorial_Function.h - Library for 'duino
   https://github.com/newEndeavour/Factorial_Function
 
-  Factorial_Function implements the Mathematical Factorial function. 
+  Factorial_Function implements the mathemical Factorial (n!) and 
+  Rising Factorial (n(m)) or Pochhammer functions.
+  
+  ----
 
   Copyright (c) 2018-2019 Jerome Drouin  All rights reserved.
+
+  ----
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -27,6 +35,7 @@
 
   Editions:	
 	0.0.1	: first version
+	0.0.2	: Added Rising Factorial (Pochhammer's) functions
 	
 */
 
@@ -36,7 +45,8 @@
 
 double Factorial(int n);
 long double xFactorial(int n);
-int Factorial_Max_Arg(void);
 
+double Rising_Factorial(int n, int m);
+long double xRising_Factorial(int n, int m);
 
 #endif

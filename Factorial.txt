@@ -1,0 +1,14 @@
+
+Factorial:
+The factorial of a nonnegative integer n, n!, is defined as follows:
+For n = 0, n! = 0! = 1 and for n ≥ 1, n! is defined in terms of (n-1)! by n! = n(n-1)!.
+
+
+Rising factorial (Pochhammer):
+The rising factorial of a positive integer n with nonnegative length m is d
+efined as follows: (n)m = n(n+1)···(n+m-1) = (n+m-1)! / (n-1)!, where, by 
+convention, (n)0 = 1. 
+The rising factorial is Pochhammer's function, (x)m, 
+where x is restricted to the positive integers.
+
+
